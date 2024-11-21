@@ -620,9 +620,9 @@ lika_build_iso_package_required () {
 
 
 	util_error_echo
-	util_error_echo "apt-get install live-build -y"
+	util_error_echo "apt-get install live-build git -y"
 	util_error_echo
-	apt-get install live-build -y
+	apt-get install live-build git -y
 
 	util_error_echo
 
